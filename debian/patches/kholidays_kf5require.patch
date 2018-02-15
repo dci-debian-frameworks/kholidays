@@ -1,0 +1,16 @@
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index beede56..a0b1e69 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -1,9 +1,9 @@
+ cmake_minimum_required(VERSION 3.0)
+ 
+-set(KF5_VERSION "5.43.0")
++set(KF5_VERSION "5.42.0")
+ project(KHolidays VERSION ${KF5_VERSION})
+ 
+-find_package(ECM 5.43.0 REQUIRED NO_MODULE)
++find_package(ECM 5.42.0 REQUIRED NO_MODULE)
+ set(CMAKE_MODULE_PATH ${ECM_MODULE_PATH})
+ set(CMAKE_AUTORCC ON)
+ 
